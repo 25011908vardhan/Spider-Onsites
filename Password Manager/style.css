@@ -1,0 +1,78 @@
+html,body{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+html{
+    font-size:10px;
+}
+body{
+    background-image: url("bgn.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+h1{
+    text-align: center;
+    font-size:3rem;
+}
+.form{
+    border: 0.2rem solid black;
+    border-radius: 2.0rem;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    padding: 3.0rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgba(248, 248, 248, 0.774);
+    background-color: rgba(46, 42, 42, 0.418);
+}
+td,th{
+    border:1px solid black;
+    border-radius: 10px;
+    padding:0.5rem;
+    margin:50px;
+}
+input{
+    display: block;
+    margin: 1rem;
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: rgba(41, 39, 39, 0.548);
+    color: black;
+} 
+::placeholder{
+    color:rgb(128, 128, 128)
+}
+label{
+    color:rgb(115, 243, 111);
+    font-size: 2.9rem;
+}
+#submit,.back{
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: rgb(255, 0, 0);
+    border-radius: 1.0rem;
+    padding: 0.5rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.back{
+    padding:1rem;
+    font-size:2rem;
+    margin:1rem;
+}
+.back:hover{
+    cursor:pointer;
+
+}
